@@ -1,0 +1,93 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "tipo": "cliente",
+      "nome": "Maria Silva",
+      "email": "cliente@teste.com",
+      "senha": "123",
+      "rg": "MG-12.345.678",
+      "cpf": "529.982.247-25",
+      "endereco": "Rua A, 100 - Belo Horizonte/MG",
+      "profissao": "Engenheira",
+      "rendimentos": [
+        {
+          "empregador": "Empresa X",
+          "valor": 8000
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "tipo": "banco",
+      "nome": "Banco Minas",
+      "email": "banco@teste.com",
+      "senha": "123"
+    },
+    {
+      "id": 3,
+      "tipo": "empresa",
+      "nome": "LocaCar Ltda",
+      "email": "empresa@teste.com",
+      "senha": "123"
+    },
+    {
+      "tipo": "cliente",
+      "nome": "Julia",
+      "email": "julia@email.com",
+      "senha": "1234",
+      "rg": "31.486.105-1",
+      "cpf": "749.459.520-19",
+      "endereco": "Rua Dom Joao",
+      "profissao": "Carrerista",
+      "rendimentos": [
+        {
+          "empregador": "Itau",
+          "valor": 0.01
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "automoveis": [
+    {
+      "matricula": "178456",
+      "placa": "ABC1234",
+      "ano": 2022,
+      "marca": "FIat",
+      "modelo": "argoo",
+      "proprietarioTipo": "cliente",
+      "proprietarioId": 1,
+      "proprietarioNome": "Maria Silva",
+      "id": 1
+    }
+  ],
+  "pedidos": [
+    {
+      "clienteId": 1,
+      "clienteNome": "Maria Silva",
+      "automovelId": 1,
+      "valor": 100.1,
+      "meses": 12,
+      "bancoId": null,
+      "bancoNome": null,
+      "status": "Contratado",
+      "parecer": "",
+      "agenteId": 2,
+      "data": "2026-11-03T18:32:33.165Z",
+      "id": 1
+    }
+  ],
+  "contratos": [
+    {
+      "pedidoId": 1,
+      "clienteId": 1,
+      "agenteId": 2,
+      "valor": 100.1,
+      "meses": 12,
+      "bancoCreditoId": null,
+      "data": "2026-11-03T18:33:44.018Z",
+      "id": 1
+    }
+  ]
+}

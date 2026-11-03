@@ -1,0 +1,10 @@
+{
+  "name": "aluguel-carros",
+  "version": "1.0.0",
+  "scripts": {
+    "api": "json-server --watch db.json --port 3000",
+    "web": "npx http-server . -p 8080 -c-1",
+    "start": "json-server db.json"
+    },
+  "devDependencies": { "json-server": "^0.17.4" }
+}
