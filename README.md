@@ -242,7 +242,7 @@ Organização dos arquivos baseada na refatoração modular recomendada.
 
 | 👤 Nome | 🎓 Papel | 🏢 Instituição | 
 | ----- | ----- | ----- | 
-| **Gabriela Schaper** | Desenvolvedor Full-Stack (Aluno) | PUC Minas - Engenharia de Software | 
+| **Gabriela Schaper** | Desenvolvedora Full-Stack (Aluno) | PUC Minas | 
 | **João Paulo C. Aramuni** | Professor (Orientação Acadêmica) | PUC Minas | 
 
 ## 📄 Licença
